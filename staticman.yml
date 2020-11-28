@@ -10,7 +10,7 @@ comments:
   # Destination path (filename) for the data files. Accepts placeholders.
   filename: "entry{@timestamp}"
 
-  format: "yaml"
+  format: "yml"
 
   # List of fields to be populated automatically by Staticman and included in
   # the data file. Keys are the name of the field. The value can be an object
