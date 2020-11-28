@@ -13,24 +13,22 @@
   </div>
 
     <div class="textfield narrowfield">
-      <label for="comment-form-name">Name
-        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required/>
+      <label for="comment-form-name">Alias
+        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" required>
       </label>
     </div>
 
     <div class="textfield narrowfield">
       <label for="comment-form-email">E-mail
-        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)"/>
+        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email">
       </label>
     </div>
 
     <div class="textfield narrowfield hp">
       <label for="hp">
-        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
+        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="hidden">
       </label>
     </div>
-
-    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
 
     <button class="button" id="comment-form-submit">
       Submit
