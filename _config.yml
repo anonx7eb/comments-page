@@ -9,4 +9,4 @@ theme: minima
 #
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://koi-comments.herokuapp.com/v3/entry/harkdand/comments-page/master/comments
+staticman_url: https://koi-comments.herokuapp.com/v2/entry/harkdand/comments-page/master/comments
