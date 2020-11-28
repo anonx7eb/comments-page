@@ -6,6 +6,4 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-{% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}
+{% include comments.html %}
